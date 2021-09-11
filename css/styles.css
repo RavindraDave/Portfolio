@@ -20,12 +20,21 @@ img {
     width : 300px;
 }
 
+a{
+    color: #FDFFB6;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 /*Profile
 *************************************************************/
 header{
     background : #184E77;
     color: #f7fff7;
 }
+
 
 
 /*Projects
@@ -35,7 +44,23 @@ header{
     
 }
 
+.projects a{
+    color: #184E77;
+}
+ 
 
+
+.projects .btn{
+    color: #f7fff7;
+    background: #184E77;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover{
+    background: rgba(47,48,97,80%);
+}
 
 /*Work Experience
 *************************************************************/
@@ -46,12 +71,16 @@ header{
 
 
 
-/*Education*/
+/*Education
+*************************************************************/
+
+
+
 
 
 
 /*Contact Info
-*/
+*************************************************************/
 footer{
     background :#343434;
     color: #f7fff7;
