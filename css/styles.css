@@ -70,7 +70,7 @@ h1, h2 {
 
 .divider > section {
     border-bottom: 1px dashed #184E77;
-    padding: 25px 0;
+    padding: 25px 0;    
 }
 
 .divider > section:last-of-type {
@@ -85,6 +85,8 @@ h1, h2 {
     overflow: auto;
 }
 
+
+
 /*Profile
 *************************************************************/
 header {
@@ -92,6 +94,16 @@ header {
     color: #f7fff7;    
 }
 
+
+.typed-text{      
+    text-align: center;
+    display: inline;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.content-wrap .typed-cursor {
+    font-size: 45px;
+  }
 
 /*Projects
 *************************************************************/
@@ -212,4 +224,12 @@ footer {
     .contact-list a {
         padding: 5px;
     }
+
+    .typed-text{      
+        font-size: 35px;
+    }
+
+    .content-wrap .typed-cursor {
+        font-size: 35px;
+      }
 }
