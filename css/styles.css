@@ -29,8 +29,7 @@ body {
 }
 
 img {
-    width : 300px;
-    height: 225px;
+   display: block;   
 }
 
 a{ 
@@ -136,6 +135,15 @@ header {
     margin-top: 0;
 }
 
+.img-box {
+    width: 270px;
+    height: 200px;
+    float:left;
+    align-content: center;
+    vertical-align: middle;
+ }
+
+
 /*Work Experience
 *************************************************************/
 .work-experience {
@@ -192,8 +200,7 @@ footer {
         text-align: center;
     }
 
-    .project-item img {
-        float: left;
+    .project-item img {        
         margin-right: 20px;
        }
 
