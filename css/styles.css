@@ -199,12 +199,18 @@ header {
 .img-box {
     width: 300px;
     height: 200px;
-    float:left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    float:left;      
     margin: 2px 20px 10px 10px;
     display: flex;
     justify-content: center;   
     padding: 5px; 
+    border-radius: 8px;
+    border-style: double;
+    
+ }
+
+.img-box:hover {  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);        
  }
 
  .finiq_logo {
