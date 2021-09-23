@@ -321,3 +321,16 @@ footer {
 
 }
 
+
+
+/************************ Under Construiction *************************/
+.under-construction{
+    background: url(../images/comingsoon.jpg) no-repeat center center fixed;;   
+    width: 100%;
+    height: 100%;      
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
