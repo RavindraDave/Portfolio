@@ -3,16 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Ravindra Dave" name="keywords" />
+    <meta content="Ravindra Dave Portfolio" name="description" />
     <title>Ravindra Dave  - Tech Enthusiast</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="scripts/typed.min.js"></script>
+    <script src="scripts/index.js"></script>
+
   </head>
   <body>
     <main>
+       <!-- Nav Bar Start -->
+      <nav>
+        <div class="content-wrap topnav">
+          <a href="#home" class="active">Home</a>                            
+          <a href="#projects" >Projects</a>
+          <a href="#experience" >Work Experience</a>
+          <a href="#education" >Education</a>
+          <a href="#contact-info" >Contact</a>                          
+        </div>
+      </nav>
+      <!-- Nav Bar End -->
+      
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
+      <header id="home">
         <div class="content-wrap">          
           <h1>Ravindra Dave</h1>
           <h2 class="typed-text"></h2>
@@ -23,7 +43,7 @@
       </header>
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="projects">
+      <section class="projects " id="projects">
         <div class="content-wrap divider"> 
           <h2>Featured Projects</h2>
           <p>View selected projects below.</p>
@@ -31,7 +51,9 @@
           <!-- Project 1 -->
           <section class="project-item" id="finiq-projects">              
             <div class="img-box">
-              <a href="https://www.finiq.com" target="_blank"><img src="https://finiq.com/images/FinIQ_Logo.png" alt="FinIQ Logo"></a>
+              <a href="https://www.finiq.com" target="_blank">
+                <img src="https://finiq.com/images/FinIQ_Logo.png" alt="FinIQ Logo" class="finiq_logo">
+              </a>
             </div>               
             <h3>FinIQ</h3>
             <p>During my 8 years’ tenure in FinIQ, I worked on various projects for mutliple clients such as AmBank, RHB, ANZ, UOB, DBS, Bank Of China International, Bankok Bank, OCBC and many more.</p>
@@ -51,17 +73,18 @@
           <!-- Project 3 -->          
           <section class="project-item">            
             <div class="img-box">
-              <img src="" alt="description of image">
+              <img src="images/R2DSolutions.png" alt="description of image">
             </div> 
             <h3>QR Code Generator</h3>
-            <p>Details to be added</p>
+            <p>QR Code can hold any information within the square code. It can be used to link to a text, business card, multimedia, social media channels, and marketing campaigns.</p>
+            <p>I developed my own small generator using Python libraries, which can generate QR Code for URL, vCard and Wi-Fi password.</p>
             <a href="#" target="_blank" class = "btn" >Generate QR Codes</a>
           </section>                         
         </div>
       </section>
 
       <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class="work-experience">
+      <section class="work-experience" id="experience">
         <div class="content-wrap item-details divider"> 
           <h2>Work Experience</h2>
           <p>11 years’ experience of application design, development and support in FX derivatives and Investment Banking products for Banking clients in Asia-Pacific, Europe and Australia, presently employed at OCBC Bank as Assistant Vice President (Application Services).</p>
@@ -109,7 +132,7 @@
       </section>
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class = "education">
+      <section class = "education" id="education">
         <div class="content-wrap item-details"> 
           <h2>Education & Certifications</h2>
 
@@ -131,7 +154,7 @@
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
+      <footer id="contact-info">
         <div class="content-wrap"> 
           <h2>Let's Keep in Touch!</h2>
 
@@ -140,15 +163,10 @@
             <li><a href="mailto:ravindra.dave@hotmail.com ">ravindra.dave@hotmail.com</a></li>
             <li><a href="http://www.r2dsolutions.com" target="_blank">www.r2dsolutions.com</a></li>
             <li><a href="http://twitter.com/ravindradave" target="_blank">Twitter</a></li>
-            <li><a href="#" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/ravindra-dave-18676723/" target="_blank">LinkedIn</a></li>
           </ul>
         </div>
       </footer>
     </main>
-
-         <!-- JavaScript Libraries -->
-         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-         <script src="scripts/typed.min.js"></script>
-         <script src="scripts/index.js"></script>
   </body>
 </html>
