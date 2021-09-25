@@ -217,6 +217,12 @@ header {
     padding-top: 45px !important;
  }
 
+.img-db {
+    width: 90%;
+    height: 90%;
+    padding-top: 15px !important;
+}
+
 /*Work Experience
 *************************************************************/
 .work-experience {
